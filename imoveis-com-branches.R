@@ -51,3 +51,12 @@ sd(dados_imoveis$preco, na.rm = TRUE)
 # Resumo geral
 summary(dados_imoveis)
 
+# Média
+mean(dados_imoveis$imposto_anual, na.rm = TRUE)
+
+# Mediana
+median(dados_imoveis$imposto_anual, na.rm = TRUE)
+
+# Desvio padrão
+sd(dados_imoveis$imposto_anual, na.rm = TRUE)
+
