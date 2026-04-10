@@ -51,3 +51,11 @@ sd(dados_imoveis$preco, na.rm = TRUE)
 # Resumo geral
 summary(dados_imoveis)
 
+
+# Histograma da metragem
+hist(dados_imoveis$metragem,
+     main = "Distribuição da Metragem",
+     xlab = "Metragem",
+     col = "lightgreen")
+
+
