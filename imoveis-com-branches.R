@@ -51,6 +51,7 @@ sd(dados_imoveis$preco, na.rm = TRUE)
 # Resumo geral
 summary(dados_imoveis)
 
+ HEAD
 # Média
 mean(dados_imoveis$imposto_anual, na.rm = TRUE)
 
@@ -59,4 +60,13 @@ median(dados_imoveis$imposto_anual, na.rm = TRUE)
 
 # Desvio padrão
 sd(dados_imoveis$imposto_anual, na.rm = TRUE)
+
+
+# Histograma da metragem
+hist(dados_imoveis$metragem,
+     main = "Distribuição da Metragem",
+     xlab = "Metragem",
+     col = "lightgreen")
+
+graficos
 
